@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* all themes */
+
+.background {
+  @apply bg-white dark:bg-[#181a20] text-zinc-950 dark:text-white;
+}
+.surface {
+  @apply bg-[#f9f9f9] dark:bg-[#1f222a];
+}
+.surface-text{
+  @apply text-[#acacac]
+}
+.primary{
+  @apply bg-[#5138ec]
+}
+.primary-text{
+  @apply text-[#5138ec]
+}
+.primary-border{
+  @apply border border-[#5138ec]
+}
+.custom-border{
+  @apply border border-gray-200;
+}
